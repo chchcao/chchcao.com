@@ -88,9 +88,7 @@ img{
 
 .sampleImage{
   padding-bottom: 20px;
-  cursor: pointer;
-
-  
+  cursor: pointer;  
 }
 .sampleImage img:hover{
   opacity: 1;
@@ -101,7 +99,7 @@ img{
 
 .footer{
   background-color: rgba(51, 153, 51, .3);
-  height: 100px;
+  min-height: 100px;
 }
 
 .footer .container{
@@ -110,19 +108,18 @@ img{
 
 .email-subscription{
   padding-top: 25px;
+  padding-bottom: 25px;
   vertical-align: middle;
   text-align: center;
   height: 100%;
 
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .email-subscription input{
   display: inline-block;
   height: 50px;
-  width: 230px;
-  margin-right: 10px;
-
+  width: 100%;
   border: none;
 
   color: rgba(51, 153, 51, .3);
@@ -152,10 +149,9 @@ img{
 .email-subscription button{
   display: inline-block;
   height: 50px;
-  width: 80px;
-  padding: 0;
+  width: 100%;
 
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
 
   border: none;
