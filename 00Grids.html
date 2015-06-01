@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+</head>
+	<style>
+		body {
+			padding: 0 16px;
+		}
+		.container {
+		  padding: 0 1em;
+		}
+		h1 {
+			font-size:18px;
+			font-weight:700;
+		}
+		
+		h2 {
+			font-size:14px;
+			font-weight:700;
+		}
+		h4 {
+		  margin-top: 1.5em;
+		}
+		.row {
+		  margin-bottom: 1.5em;
+		}
+		.row .row {
+		  margin-top: 0.8em;
+		  margin-bottom: 0;
+		}
+		[class*="col-"] {
+		  padding: 1em 0;
+		  background-color: rgba(255,195,13,.3);
+		  border: 1px solid rgba(255,195,13,.4);
+}
+
+	</style>
+<body>
+	<div class="container">
+		<h1>This grid format is by Jen Kramer (see 'Up and Running with Bootstrap')</h1>
+        <h2>Start with visible classes</h2>
+        
+  		<p class="visible-lg">lg indicates that the large grid displaying. The grid stacks horizontally &lt; 1200px. </p>
+      	<p class="visible-md">md indicates that the medium grid displaying. The grid stacks horizontally &lt; 992px. </p>
+      	<p class="visible-sm">sm indicates that the small grid displaying. The grid stacks horizontally &lt; 768px. </p>
+      	<p class="visible-xs">xs indicates that the extra small grid displaying. This grid is always horizontal. </p>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-md-1 col-sm-5 col-xs-3">
+			<span class="visible-lg"> .col-lg-4</span>
+			<span class="visible-md"> .col-md-1</span>
+			<span class="visible-sm"> .col-sm-5</span>
+			<span class="visible-xs"> .col-xs-3</span>
+		</div>
+		<div class="col-lg-4 col-md-5 col-sm-1 col-xs-6">
+			<span class="visible-lg"> .col-lg-4</span>
+			<span class="visible-md"> .col-lg-5</span>
+			<span class="visible-sm"> .col-lg-1</span>
+			<span class="visible-xs"> .col-lg-6</span>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-3">
+			<span class="visible-lg"> .col-lg-4</span>
+			<span class="visible-md"> .col-lg-6</span>
+			<span class="visible-sm"> .col-lg-6</span>
+			<span class="visible-xs"> .col-lg-3</span>
+		</div>
+	</div>
+
+
+	<h1>xs Grid alone</h1>
+
+	<div class= "row">
+		<div class="col-xs-5">
+			<p>.col-xs-5</p>
+		</div>
+			<div class="col-xs-6">
+			<p>.col-xs-1</p>
+		</div>
+			<div class="col-xs-1">
+			<p>.col-xs-6</p>
+		</div>
+	</div>
+
+	<h1>sm Grid alone</h1>
+
+	<div class= "row">
+		<div class="col-sm-5">
+			<p>.col-sm-5</p>
+		</div>
+			<div class="col-sm-1">
+			<p>.col-sm-1</p>
+		</div>
+			<div class="col-sm-6">
+			<p>.col-sm-6</p>
+		</div>
+	</div>
+
+	<h1>md Grid alone</h1>
+
+	<div class= "row">
+		<div class="col-md-5">
+			<p>.col-md-5</p>
+		</div>
+			<div class="col-md-2">
+			<p>.col-md-2</p>
+		</div>
+			<div class="col-md-2">
+			<p>.col-md-2</p>
+		</div>
+	</div>
+
+	<h1>Demonstration of push pull</h1>
+	<div class="row">
+		<div class="col-md-9 col-md-push-3">
+			<p>I want this conent to go on the right side when large but to go on the top when small- this will be common if this was more important info</p>
+		</div>
+		<div class="col-md-3 col-md-pull-9">
+			<p>I want this content to go on the left side when large but to go under when small-- this would like an aside </p>
+		</div>
+
+	</div>
+</div> <!-- end -->
+
+<!--javascript-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

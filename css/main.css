@@ -1,0 +1,163 @@
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+  margin-top: 30px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.navbar-header{
+  border: none;
+}
+
+.navbar .navbar-brand{
+  font-size: 40px;
+}
+
+#navbar{
+
+}
+
+.carousel{
+  margin-top: 25px;
+  
+}
+
+.your-class {
+  margin: 0 15px;
+}
+
+.slick-slide {
+  max-height: 378px;
+}
+.slick-prev{
+  padding-left: 40px;
+}
+.slick-next{
+  padding-right: 70px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+}
+.slick-dots li.slick-active button:before{
+  color:white;
+  opacity: .9;
+}
+
+.slick-dots li button:before{
+  color:white;
+  opacity: .5;
+  font-size: 25px;
+}
+
+.slick-dots {
+  z-index: 100;
+  bottom: 20px;
+}
+
+img{
+  display: block;
+  height:auto;
+  max-width:100%;
+  opacity: .7;
+}
+
+.about{
+  color: #669999;
+  text-align: center;
+}
+
+.about h2{
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.about p{
+  min-height: 100px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.samples{
+  padding: 0px;
+}
+
+.sampleImage{
+  padding-bottom: 20px;
+  cursor: pointer;
+
+  
+}
+.sampleImage img:hover{
+  opacity: 1;
+
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.footer{
+  background-color: rgba(51, 153, 51, .3);
+  height: 100px;
+}
+
+.footer .container{
+  height: 100%;
+}
+
+.email-subscription{
+  padding-top: 25px;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+
+  font-size: 20px;
+}
+
+.email-subscription input{
+  display: inline-block;
+  height: 50px;
+  width: 230px;
+  margin-right: 10px;
+
+  border: none;
+
+  color: rgba(51, 153, 51, .3);
+  padding-left: 8px;
+}
+::-webkit-input-placeholder {
+   color: rgba(51, 153, 51, .3);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(51, 153, 51, .3);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(51, 153, 51, .3);
+}
+
+:-ms-input-placeholder {  
+   color: rgba(51, 153, 51, .3); 
+}
+
+.email-subscription input:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.email-subscription button{
+  display: inline-block;
+  height: 50px;
+  width: 80px;
+  padding: 0;
+
+  font-size: 18px;
+  color: #fff;
+
+  border: none;
+  background-color: #99CC99;
+}
